@@ -1,6 +1,6 @@
 # agentception-browser
 
-This is an Agentify dependency that allows you to run a headless browser agent as a microservice.
+This is an [Agentify](https://github.com/mgilangjanuar/agentify) dependency that allows you to run a headless browser agent as a microservice.
 
 To install dependencies:
 
