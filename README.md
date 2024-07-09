@@ -20,3 +20,5 @@ SECRET="xxx"
 ```bash
 bun run index.ts
 ```
+
+Then, save this service URL and secret to the Agentify variables `BROWSER_URL` and `BROWSER_SECRET`.
