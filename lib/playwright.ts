@@ -30,7 +30,7 @@ export class Playwright {
       permissions: [],
     })
     const page = await ctx.newPage()
-    await page.goto(this.url, { waitUntil: 'networkidle' })
+    await page.goto(this.url, { waitUntil: 'domcontentloaded' })
     this.page = page
     return this
   }
